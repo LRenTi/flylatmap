@@ -24,13 +24,13 @@ function createMap(id) {
 
             const airlineId = data.id || '';
 
-            var map = L.map('map').setView([0, 0], 2);
+            var map = L.map('map', {
+            }).setView([0, 0], 2);
 
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
                 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             }).addTo(map);
-
     
             let countRoutes = 0;
             let countMissingRoutes = 0;
@@ -53,7 +53,7 @@ function createMap(id) {
                     L.polyline([
                         [departureInfo.latitude, departureInfo.longitude],
                         [destinationInfo.latitude, destinationInfo.longitude]
-                    ], {color: 'grey'})
+                    ], {color: 'lightblue'})
                     .bindTooltip(`(${departureInfo.ICAO || 'Unknown'}) - (${destinationInfo.ICAO || 'Unknown'})`)
                     .addTo(map);
                 } else {
