@@ -6,7 +6,7 @@ function createMap(id) {
         url: `https://api.github.com/repos/lrenti/flylatmap/contents/data/Routes/${id}.json`,
         type: 'GET',
         dataType: 'json',
-        headers: {"Authorization": "token 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"},
+        //headers: {"Authorization": "token" + ACCESS_TOKEN},
         cache: false,
         success: function(response) {
             $("#map").show();
@@ -72,15 +72,19 @@ function createMap(id) {
             }
             console.log(`Map saved to ${folder + filename}`);
         },
-        error: function() {
-                if (xhr.status === 403) {
-                    console.log("Error 403: Unauthorized access");
-                } else {
-                    console.log("Error fetching data: " + error);
-                }
+        error: function(response) {
+            if (response.status === 403) {
+                console.log("API rate limit exceeded. Please try again later.");
+                $("#error").append("<p class=\"alert alert-danger\" role=\"alert\">API rate limit exceeded. Please try again later.</p>");
+            }
+            if (response.status === 401) {
+                $("#error").append("<p class=\"alert alert-danger\" role=\"alert\">Unauthorized! Please check your GitHub Token</p>");
+            }
+            if (response.status === 404) {
+                $("#error").append("<p class=\"alert alert-danger\" role=\"alert\">Airline not found!</p>");
+            }
         }
     })   
 }
-
 // Example usage:
 createMap(100172)
