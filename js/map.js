@@ -70,7 +70,6 @@ function createMap(id) {
             if (countMissingRoutes > 0) {
                 console.log(countMissingRoutes + " Routes could not be added to the map due to missing or invalid coordinates.");
             }
-            console.log(`Map saved to ${folder + filename}`);
         },
         error: function(response) {
             if (response.status === 403) {
