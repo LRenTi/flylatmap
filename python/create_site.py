@@ -6,7 +6,6 @@ from database import mkdir
 def create_site(id):
     path = f'data/routes/{id}.json'
     
-    # Lade die Daten aus der JSON-Datei
     with open(path, 'r') as f:
         data = json.load(f)
 
@@ -14,12 +13,11 @@ def create_site(id):
     airline_name = data.get('name', '')
     airline_id = data.get('id', '')
 
-    # Erstelle eine Karte
     m = folium.Map(location=[0, 0], zoom_start=2)
 
     count_routes = 0
     count_missing_routes = 0
-    # Füge Marker für die Flughäfen hinzu und verbinde sie mit Polylinien, falls eine Route vorhanden ist
+
     for route in routelist:
         departure_info = route.get('departure', {})
         destination_info = route.get('destination', {})
@@ -54,7 +52,7 @@ def create_site(id):
     path = folder + filename
     m.save(path)
     
-    print(count_routes, "Routen wurden erfolgreich in der Karte hinzugefügt.")
+    print(count_routes, "Routes added to the map.")
     if count_missing_routes > 0:
-        print(count_missing_routes, "Routen konnten nicht hinzugefügt werden, da Koordinaten fehlen oder ungültig sind.")
-    print(f"Karte wurde erfolgreich in '{filename}' gespeichert.")
+        print(count_missing_routes, "Routes could not be added to the map due to missing or invalid coordinates.")
+    print(f"Map saved to {path}")
