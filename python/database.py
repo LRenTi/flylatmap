@@ -127,7 +127,7 @@ def get_Routes(path, table):
         newdata = {
             'name': data['name'],
             'id': data['id'],
-            'updateTimestamp': time.strftime('%d-%m-%Y, %H:%M:%S'),
+            'updateTimestamp': time.time(),
             'routes': [],
         }
         
