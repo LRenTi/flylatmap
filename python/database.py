@@ -9,6 +9,10 @@ from bs4 import BeautifulSoup
 from tqdm import tqdm
 from dotenv import load_dotenv
 
+def mkdir(folder):
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+
 class Airport:
     def __init__(self, icao, name, latitude, longitude):
         self.icao = icao
@@ -41,8 +45,7 @@ class Hashtable:
         data = []
         export_folder = "data/"
         
-        if not os.path.exists(export_folder):
-            os.makedirs(export_folder)
+        mkdir(export_folder)
         
         file_path = export_folder + fileName + ".json"
         
@@ -66,6 +69,9 @@ class Hashtable:
         
     def loadTable(self, fileName):
         import_folder = "data/"
+        
+        mkdir(import_folder)
+        
         file_path = import_folder + fileName + ".json"
         
         try:
@@ -159,7 +165,9 @@ def get_Routes(path, table):
                         print(f"\nCould not retrieve data for {icao_code}")
         newdata['routes'] = departure_destination_list
         
-        newpath = 'data/routes/' + str(data['id']) + '.json'
+        folder = 'data/routes/'
+        mkdir(folder)
+        newpath = folder + str(data['id']) + '.json'
         
         with open(newpath, 'w') as f:
             json.dump(newdata, f)

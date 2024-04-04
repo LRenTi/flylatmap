@@ -1,6 +1,7 @@
 import folium
 import json
 from branca.element import Template, MacroElement
+from database import mkdir
 
 def create_site(id):
     path = f'data/routes/{id}.json'
@@ -48,8 +49,11 @@ def create_site(id):
             print("Skipping route with missing or invalid airport information")
 
     filename = f'{id}.html'
-    path = f'maps/{filename}'
+    folder = 'maps/'
+    mkdir(folder)
+    path = folder + filename
     m.save(path)
+    
     print(count_routes, "Routen wurden erfolgreich in der Karte hinzugefügt.")
     if count_missing_routes > 0:
         print(count_missing_routes, "Routen konnten nicht hinzugefügt werden, da Koordinaten fehlen oder ungültig sind.")
