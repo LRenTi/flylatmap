@@ -19,7 +19,7 @@ def main():
         db.get_Routes(path, airport_table)
         if os.path.exists(path):
             os.remove(path)
-        cs.create_site(id)
+        #cs.create_site(id)
     else:
         print("Data could not be retrieved from flylat.net")
 
