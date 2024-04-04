@@ -1,4 +1,15 @@
-#map {
+body {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
+    margin: 0;
+}
+
+#map {
+    height: 100%;
     width: 100%;
+}
+#header {
+    text-align: center;
+    padding: 10px;
 }
