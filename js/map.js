@@ -1,11 +1,14 @@
 function createMap(id) {
 
     $.ajax({
-        url: `data/routes/${id}.json`,
+        url: `https://api.github.com/repos/lrenti/flylatmap/contents/data/Routes/${id}.json`,
         type: 'GET',
         dataType: 'json',
         cache: false,
-        success: function(data) {
+        success: function(response) {
+            const content = atob(response.content);
+            const data = JSON.parse(content);
+
             routelist = data.routes;
             airlineName = data.name;
             $("#airline-name").text(airlineName);
