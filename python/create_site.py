@@ -38,7 +38,12 @@ def create_site(id):
                     popup=f"{destination_info.get('name', 'Unknown')} ({destination_info.get('ICAO', 'Unknown')})",
                     icon=folium.Icon(color='blue')
                 ).add_to(m)
-                folium.PolyLine([(departure_lat, departure_lon), (destination_lat, destination_lon)], color="red").add_to(m)
+                folium.PolyLine(
+                    [(departure_lat, departure_lon), (destination_lat, destination_lon)],
+                    smooth_factor=50,
+                    tooltip=f"({departure_info.get('ICAO', 'Unknown')}) - ({destination_info.get('ICAO', 'Unknown')})", 
+                    color="grey"
+                ).add_to(m)
             else:
                 count_missing_routes = count_missing_routes + 1
                 print("Skipping route with missing or invalid coordinates")
