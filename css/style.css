@@ -4,6 +4,8 @@ body {
 }
 
 #map {
+    padding: 0;
+    margin: 0;
     height: 100%;
     width: 100%;
 }
@@ -17,4 +19,3 @@ body {
 .leaflet-control-zoom-out {
   filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
 }
-

@@ -2,6 +2,8 @@ function createMap(id) {
 
     $("#map").hide();
 
+    ACCESS_TOKEN = "";
+
     $.ajax({
         url: `https://api.github.com/repos/lrenti/flylatmap/contents/data/Routes/${id}.json`,
         type: 'GET',
@@ -25,13 +27,16 @@ function createMap(id) {
             const airlineId = data.id || '';
 
             var map = L.map('map', {
+                zoomControl: false,
             }).setView([0, 0], 2);
 
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
-                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
             }).addTo(map);
-    
+
+            L.control.zoom({position: 'topright'}).addTo(map);
+
             let countRoutes = 0;
             let countMissingRoutes = 0;
     
@@ -72,6 +77,7 @@ function createMap(id) {
             }
         },
         error: function(response) {
+            $("#error").show();
             if (response.status === 403) {
                 console.log("API rate limit exceeded. Please try again later.");
                 $("#error").append("<p class=\"alert alert-danger\" role=\"alert\">API rate limit exceeded. Please try again later.</p>");
@@ -86,4 +92,5 @@ function createMap(id) {
     })   
 }
 // Example usage:
+$("#error").hide();
 createMap(100172)
