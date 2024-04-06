@@ -428,7 +428,7 @@
   .chiller-theme .sidebar-wrapper .sidebar-search .input-group-text,
   .chiller-theme .sidebar-wrapper .sidebar-brand>a,
   .chiller-theme .sidebar-wrapper .sidebar-menu ul li a,
-  .chiller-theme .sidebar-footer>a {
+  .chiller-theme .sidebar-footer>a .version{
       color: #818896;
   }
   

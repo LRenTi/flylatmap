@@ -19,3 +19,9 @@ body {
 .leaflet-control-zoom-out {
   filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
 }
+
+.version {
+    flex-grow: 1;
+    color: #818896;
+}
+
