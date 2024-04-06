@@ -1,7 +1,7 @@
 function createMap(id) {
 
     $("#map").hide();
-
+    $("#airline-picture").attr("src", "https://flylat.net/images/airlines/" + id + ".png")
     ACCESS_TOKEN = "";
 
     $.ajax({
@@ -66,12 +66,10 @@ function createMap(id) {
                     console.log("Skipping route with missing or invalid coordinates");
                 }
             });
-    
-            const filename = `${id}.html`;
-            const folder = 'maps/';
 
 
             console.log(countRoutes + " Routes added to the map.");
+            $("#routecount").text(countRoutes + " Routes");
             if (countMissingRoutes > 0) {
                 console.log(countMissingRoutes + " Routes could not be added to the map due to missing or invalid coordinates.");
             }
@@ -91,6 +89,3 @@ function createMap(id) {
         }
     })   
 }
-// Example usage:
-$("#error").hide();
-createMap(100172)

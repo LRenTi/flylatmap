@@ -317,7 +317,7 @@
   .sidebar-footer > a {
     flex-grow: 1;
     text-align: center;
-    height: 30px;
+    height: 40px;
     line-height: 30px;
     position: relative;
   }
