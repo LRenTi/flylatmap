@@ -1,37 +1,63 @@
-function createMap(id) {
+var map;
 
+function chooseAirline() {
+    fetch('data/airlines.json')
+    .then(response => response.json())
+    .then(data => {
+      const select = document.getElementById('airline-select');
+      for (const airline of data.airlines) {
+        const option = document.createElement('option');
+        option.value = airline.id;
+        option.text = airline.name;
+        select.appendChild(option);
+      }
+
+      select.addEventListener('change', function() {
+        console.log('Changing map to airline ID:', this.value);  // Debugging-Information hinzufügen
+        createMap(this.value);
+      });
+
+      if (data.airlines.length > 0) {
+        console.log('Creating initial map for airline ID:', data.airlines[0].id);  // Debugging-Information hinzufügen
+        createMap(data.airlines[0].id);
+      }
+    });
+}
+
+
+function createMap(id) {
     $("#map").hide();
+    $("#airline-picture").attr("src", "https://flylat.net/images/airlines/" + id + ".png")
 
     $.ajax({
-        url: `https://api.github.com/repos/lrenti/flylatmap/contents/data/Routes/${id}.json`,
+        url: "data/Routes/" + id + ".json",
         type: 'GET',
         dataType: 'json',
-        //headers: {"Authorization": "token" + ACCESS_TOKEN},
         cache: false,
         success: function(response) {
             $("#map").show();
-            const content = atob(response.content);
-            const data = JSON.parse(content);
 
-            routelist = data.routes;
-            airlineName = data.name;
-            airlineid = data.id;
-            const timestamp = data.updateTimestamp * 1000;
+            routelist = response.routes;
+            airlineName = response.name;
+            airlineid = response.id;
+            const timestamp = response.updateTimestamp * 1000;
             lastupdate = new Date(timestamp).toLocaleString();
-            $("#airline-name").append(`<b> ${airlineName}</b> `);
-            $("#airline-time").append(`Last update: ${lastupdate}`);
-            $("#airline-link").attr("href", `https://flylat.net/company/${airlineid}`);
 
-            const airlineId = data.id || '';
+            if (map !== undefined) {
+                map.remove();
+            }
 
-            var map = L.map('map').setView([0, 0], 2);
+            map = L.map('map', {
+                zoomControl: false,
+            }).setView([0, 0], 2);
 
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
-                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
             }).addTo(map);
 
-    
+            L.control.zoom({position: 'topright'}).addTo(map);
+
             let countRoutes = 0;
             let countMissingRoutes = 0;
     
@@ -53,7 +79,7 @@ function createMap(id) {
                     L.polyline([
                         [departureInfo.latitude, departureInfo.longitude],
                         [destinationInfo.latitude, destinationInfo.longitude]
-                    ], {color: 'grey'})
+                    ], {color: 'lightblue'})
                     .bindTooltip(`(${departureInfo.ICAO || 'Unknown'}) - (${destinationInfo.ICAO || 'Unknown'})`)
                     .addTo(map);
                 } else {
@@ -61,18 +87,18 @@ function createMap(id) {
                     console.log("Skipping route with missing or invalid coordinates");
                 }
             });
-    
-            const filename = `${id}.html`;
-            const folder = 'maps/';
 
-
+            $("#airline-name").text(airlineName).css("font-weight", "bold");
+            $("#airline-time").text(`Last update: ${lastupdate}`);
+            $("#airline-link").attr("href", `https://flylat.net/company/${airlineid}`);
             console.log(countRoutes + " Routes added to the map.");
+            $("#routecount").text(countRoutes + " Routes");
             if (countMissingRoutes > 0) {
                 console.log(countMissingRoutes + " Routes could not be added to the map due to missing or invalid coordinates.");
             }
-            console.log(`Map saved to ${folder + filename}`);
         },
         error: function(response) {
+            $("#error").show();
             if (response.status === 403) {
                 console.log("API rate limit exceeded. Please try again later.");
                 $("#error").append("<p class=\"alert alert-danger\" role=\"alert\">API rate limit exceeded. Please try again later.</p>");
@@ -86,5 +112,3 @@ function createMap(id) {
         }
     })   
 }
-// Example usage:
-createMap(100172)
