@@ -1,30 +1,23 @@
 function createMap(id) {
-
+    console.log("START")
     $("#map").hide();
     $("#airline-picture").attr("src", "https://flylat.net/images/airlines/" + id + ".png")
-    ACCESS_TOKEN = "";
 
     $.ajax({
-        url: `https://api.github.com/repos/lrenti/flylatmap/contents/data/Routes/${id}.json`,
+        url: "data/Routes/" + id + ".json",
         type: 'GET',
         dataType: 'json',
-        //headers: {"Authorization": "token" + ACCESS_TOKEN},
         cache: false,
         success: function(response) {
+            console.log("SUCCESS")
             $("#map").show();
-            const content = atob(response.content);
-            const data = JSON.parse(content);
 
-            routelist = data.routes;
-            airlineName = data.name;
-            airlineid = data.id;
-            const timestamp = data.updateTimestamp * 1000;
+
+            routelist = response.routes;
+            airlineName = response.name;
+            airlineid = response.id;
+            const timestamp = response.updateTimestamp * 1000;
             lastupdate = new Date(timestamp).toLocaleString();
-            $("#airline-name").append(`<b> ${airlineName}</b> `);
-            $("#airline-time").append(`Last update: ${lastupdate}`);
-            $("#airline-link").attr("href", `https://flylat.net/company/${airlineid}`);
-
-            const airlineId = data.id || '';
 
             var map = L.map('map', {
                 zoomControl: false,
@@ -67,7 +60,9 @@ function createMap(id) {
                 }
             });
 
-
+            $("#airline-name").append(`<b> ${airlineName}</b> `);
+            $("#airline-time").append(`Last update: ${lastupdate}`);
+            $("#airline-link").attr("href", `https://flylat.net/company/${airlineid}`);
             console.log(countRoutes + " Routes added to the map.");
             $("#routecount").text(countRoutes + " Routes");
             if (countMissingRoutes > 0) {
