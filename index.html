@@ -58,16 +58,16 @@
                     <span>Change Airline</span>
                   </a>
                   <div class="sidebar-submenu">
-                    <ul>
-                        <a href="#">
-                          Comming soon!
-                        </a>
+                    <ul class="d-flex justify-content-center">
+                      <select id="airline-select" data-bs-theme="dark"></select>
                     </ul>
                   </div>
                 </li>
+                <p class="d-flex justify-content-center tc-lightgrey">More Features Comming</p>
               </ul>
             </div>
             <!-- sidebar-header  -->
+            <!-- FUTURE FEATURES
             <div class="sidebar-menu">
               <ul>
                 <li class="header-menu">
@@ -130,6 +130,7 @@
                 </li>
               </ul>
             </div>
+            -->
             <!-- sidebar-menu  -->
             <div id="version" class="version d-flex justify-content-center">
               v0.1.1
@@ -173,11 +174,11 @@
           <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
           <script src="js/sidebar.js"></script>
-    <script>
-      $(document).ready(function () {
-        $("#error").hide();
-        createMap(100172)
-      });
-    </script>
+          <script>
+            $(document).ready(function () {
+              $("#error").hide();
+              chooseAirline();
+            });
+          </script>
 </body>
 </html>

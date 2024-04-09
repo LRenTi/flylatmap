@@ -1,5 +1,31 @@
+var map;
+
+function chooseAirline() {
+    fetch('data/airlines.json')
+    .then(response => response.json())
+    .then(data => {
+      const select = document.getElementById('airline-select');
+      for (const airline of data.airlines) {
+        const option = document.createElement('option');
+        option.value = airline.id;
+        option.text = airline.name;
+        select.appendChild(option);
+      }
+
+      select.addEventListener('change', function() {
+        console.log('Changing map to airline ID:', this.value);  // Debugging-Information hinzufügen
+        createMap(this.value);
+      });
+
+      if (data.airlines.length > 0) {
+        console.log('Creating initial map for airline ID:', data.airlines[0].id);  // Debugging-Information hinzufügen
+        createMap(data.airlines[0].id);
+      }
+    });
+}
+
+
 function createMap(id) {
-    console.log("START")
     $("#map").hide();
     $("#airline-picture").attr("src", "https://flylat.net/images/airlines/" + id + ".png")
 
@@ -9,9 +35,7 @@ function createMap(id) {
         dataType: 'json',
         cache: false,
         success: function(response) {
-            console.log("SUCCESS")
             $("#map").show();
-
 
             routelist = response.routes;
             airlineName = response.name;
@@ -19,7 +43,11 @@ function createMap(id) {
             const timestamp = response.updateTimestamp * 1000;
             lastupdate = new Date(timestamp).toLocaleString();
 
-            var map = L.map('map', {
+            if (map !== undefined) {
+                map.remove();
+            }
+
+            map = L.map('map', {
                 zoomControl: false,
             }).setView([0, 0], 2);
 
@@ -60,8 +88,8 @@ function createMap(id) {
                 }
             });
 
-            $("#airline-name").append(`<b> ${airlineName}</b> `);
-            $("#airline-time").append(`Last update: ${lastupdate}`);
+            $("#airline-name").text(airlineName).css("font-weight", "bold");
+            $("#airline-time").text(`Last update: ${lastupdate}`);
             $("#airline-link").attr("href", `https://flylat.net/company/${airlineid}`);
             console.log(countRoutes + " Routes added to the map.");
             $("#routecount").text(countRoutes + " Routes");
