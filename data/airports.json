@@ -21,6 +21,13 @@
         "Longitude": -73.7789
     },
     {
+        "Index": 2512,
+        "ICAO": "LFLL",
+        "Name": "Lyon Saint-Exup\u00e9ry Airport",
+        "Latitude": 45.725556,
+        "Longitude": 5.081111
+    },
+    {
         "Index": 2593,
         "ICAO": "LFMN",
         "Name": "Nice-C\u00f4te d'Azur Airport",
@@ -126,6 +133,20 @@
         "Longitude": -16.5725
     },
     {
+        "Index": 15537,
+        "ICAO": "EKVG",
+        "Name": "V\u00e1gar Airport",
+        "Latitude": 62.063599,
+        "Longitude": -7.27722
+    },
+    {
+        "Index": 17685,
+        "ICAO": "TNCM",
+        "Name": "Princess Juliana International Airport",
+        "Latitude": 18.041000366200002,
+        "Longitude": -63.1088981628
+    },
+    {
         "Index": 19137,
         "ICAO": "YSSY",
         "Name": "Sydney Kingsford Smith International Airport",
@@ -168,11 +189,25 @@
         "Longitude": 6.2044444
     },
     {
+        "Index": 21308,
+        "ICAO": "LIMF",
+        "Name": "Turin Airport",
+        "Latitude": 45.200802,
+        "Longitude": 7.64963
+    },
+    {
         "Index": 21565,
         "ICAO": "LIPZ",
         "Name": "Venice Marco Polo Airport",
         "Latitude": 45.505299,
         "Longitude": 12.3519
+    },
+    {
+        "Index": 21684,
+        "ICAO": "RJOO",
+        "Name": "Osaka International Airport",
+        "Latitude": 34.785499572753906,
+        "Longitude": 135.43800354003906
     },
     {
         "Index": 21703,
@@ -266,6 +301,13 @@
         "Longitude": -87.9048
     },
     {
+        "Index": 34254,
+        "ICAO": "ENVA",
+        "Name": "Trondheim Airport V\u00e6rnes",
+        "Latitude": 63.4578018,
+        "Longitude": 10.9239998
+    },
+    {
         "Index": 35732,
         "ICAO": "EBAW",
         "Name": "Antwerp International Airport (Deurne)",
@@ -301,6 +343,20 @@
         "Longitude": 34.88669967651367
     },
     {
+        "Index": 40631,
+        "ICAO": "VVPQ",
+        "Name": "Phu Quoc International Airport",
+        "Latitude": 10.1698,
+        "Longitude": 103.9931
+    },
+    {
+        "Index": 40949,
+        "ICAO": "VVTS",
+        "Name": "Tan Son Nhat International Airport",
+        "Latitude": 10.8188,
+        "Longitude": 106.652
+    },
+    {
         "Index": 42287,
         "ICAO": "LYBE",
         "Name": "Belgrade Nikola Tesla Airport",
@@ -334,6 +390,20 @@
         "Name": "Gda\u0144sk Lech Wa\u0142\u0119sa Airport",
         "Latitude": 54.377601623535156,
         "Longitude": 18.46619987487793
+    },
+    {
+        "Index": 45877,
+        "ICAO": "EPKK",
+        "Name": "Krak\u00f3w John Paul II International Airport",
+        "Latitude": 50.077702,
+        "Longitude": 19.7848
+    },
+    {
+        "Index": 45957,
+        "ICAO": "EPLL",
+        "Name": "\u0141\u00f3d\u017a W\u0142adys\u0142aw Reymont Airport",
+        "Latitude": 51.721900939899996,
+        "Longitude": 19.3980998993
     },
     {
         "Index": 46278,
@@ -476,6 +546,13 @@
         "Longitude": 11.344
     },
     {
+        "Index": 59549,
+        "ICAO": "LOWK",
+        "Name": "Klagenfurt Airport",
+        "Latitude": 46.642502,
+        "Longitude": 14.3377
+    },
+    {
         "Index": 59557,
         "ICAO": "LOWS",
         "Name": "Salzburg Airport",
@@ -488,6 +565,20 @@
         "Name": "Vienna International Airport",
         "Latitude": 48.110298,
         "Longitude": 16.5697
+    },
+    {
+        "Index": 59669,
+        "ICAO": "RPVA",
+        "Name": "Daniel Z. Romualdez Airport",
+        "Latitude": 11.228035,
+        "Longitude": 125.027761
+    },
+    {
+        "Index": 59681,
+        "ICAO": "RPVM",
+        "Name": "Mactan Cebu International Airport",
+        "Latitude": 10.307499885559,
+        "Longitude": 123.97899627686
     },
     {
         "Index": 61237,
@@ -509,6 +600,13 @@
         "Name": "Soekarno-Hatta International Airport",
         "Latitude": -6.1255698204,
         "Longitude": 106.65599823
+    },
+    {
+        "Index": 62108,
+        "ICAO": "LCPH",
+        "Name": "Paphos International Airport",
+        "Latitude": 34.71799850463867,
+        "Longitude": 32.48569869995117
     },
     {
         "Index": 64990,
@@ -553,6 +651,13 @@
         "Longitude": -2.279521
     },
     {
+        "Index": 67404,
+        "ICAO": "EGGP",
+        "Name": "Liverpool John Lennon Airport",
+        "Latitude": 53.33359909057617,
+        "Longitude": -2.849720001220703
+    },
+    {
         "Index": 67414,
         "ICAO": "LDDU",
         "Name": "Dubrovnik Airport",
@@ -560,11 +665,25 @@
         "Longitude": 18.268199920654297
     },
     {
+        "Index": 67635,
+        "ICAO": "EGJJ",
+        "Name": "Jersey Airport",
+        "Latitude": 49.20790100097656,
+        "Longitude": -2.195509910583496
+    },
+    {
         "Index": 67795,
         "ICAO": "EGLL",
         "Name": "London Heathrow Airport",
         "Latitude": 51.4706,
         "Longitude": -0.461941
+    },
+    {
+        "Index": 67965,
+        "ICAO": "EGNX",
+        "Name": "East Midlands Airport",
+        "Latitude": 52.8311004639,
+        "Longitude": -1.32806003094
     },
     {
         "Index": 68105,
@@ -579,6 +698,20 @@
         "Name": "Edinburgh Airport",
         "Latitude": 55.95000076293945,
         "Longitude": -3.372499942779541
+    },
+    {
+        "Index": 68355,
+        "ICAO": "EGSS",
+        "Name": "London Stansted Airport",
+        "Latitude": 51.8849983215,
+        "Longitude": 0.234999999404
+    },
+    {
+        "Index": 69132,
+        "ICAO": "LDZA",
+        "Name": "Zagreb Airport",
+        "Latitude": 45.7429008484,
+        "Longitude": 16.0687999725
     },
     {
         "Index": 71106,
@@ -651,11 +784,25 @@
         "Longitude": -3.56264
     },
     {
+        "Index": 74352,
+        "ICAO": "LEMG",
+        "Name": "M\u00e1laga Airport",
+        "Latitude": 36.67490005493164,
+        "Longitude": -4.499110221862793
+    },
+    {
         "Index": 74583,
         "ICAO": "LEPA",
         "Name": "Palma De Mallorca Airport",
         "Latitude": 39.551700592,
         "Longitude": 2.73881006241
+    },
+    {
+        "Index": 77319,
+        "ICAO": "GMMX",
+        "Name": "Menara Airport",
+        "Latitude": 31.606899261499997,
+        "Longitude": -8.03629970551
     },
     {
         "Index": 77645,

@@ -1,7 +1,7 @@
 {
     "name": "AVIAN Air",
     "id": "100172",
-    "updateTimestamp": 1712241584.5192187,
+    "updateTimestamp": 1712684030.8339603,
     "routes": [
         {
             "departure": {
@@ -617,6 +617,20 @@
                 "name": "Hartsfield Jackson Atlanta International Airport",
                 "latitude": 33.6367,
                 "longitude": -84.428101
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "KLAX",
+                "name": "Los Angeles International Airport",
+                "latitude": 33.942501,
+                "longitude": -118.407997
+            },
+            "destination": {
+                "ICAO": "PHNL",
+                "name": "Daniel K Inouye International Airport",
+                "latitude": 21.32062,
+                "longitude": -157.924228
             }
         },
         {
@@ -1695,20 +1709,6 @@
                 "name": "Leonardo da Vinci\u2013Fiumicino Airport",
                 "latitude": 41.8002778,
                 "longitude": 12.2388889
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "KLAX",
-                "name": "Los Angeles International Airport",
-                "latitude": 33.942501,
-                "longitude": -118.407997
-            },
-            "destination": {
-                "ICAO": "PHNL",
-                "name": "Daniel K Inouye International Airport",
-                "latitude": 21.32062,
-                "longitude": -157.924228
             }
         },
         {
