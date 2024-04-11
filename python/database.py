@@ -159,11 +159,11 @@ def get_Routes(path, table):
                                 'longitude': None
                             }
                             print(f"\nCould not find coordinates for {icao_code}")
-                            count_missing_airports += 1
                         if table.table[index] is None:
                             table.addAirport(Airport(icao_code, name, latitude, longitude))
                     else:
                         print(f"\nCould not retrieve data for {icao_code}")
+                        count_missing_airports += 1
         newdata['routes'] = departure_destination_list
         
         folder = 'data/routes/'
