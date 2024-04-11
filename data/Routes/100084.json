@@ -1,7 +1,7 @@
 {
     "name": "Soarin",
     "id": "100084",
-    "updateTimestamp": 1712858361.9613261,
+    "updateTimestamp": 1712863317.899554,
     "routes": [
         {
             "departure": {
@@ -290,7 +290,12 @@
                 "latitude": 51.4706,
                 "longitude": -0.461941
             },
-            "destination": "OKKK"
+            "destination": {
+                "ICAO": "OKKK",
+                "name": "Kuwait International Airport",
+                "latitude": 29.226600646972656,
+                "longitude": 47.96889877319336
+            }
         },
         {
             "departure": {
@@ -313,7 +318,12 @@
                 "latitude": 53.349375,
                 "longitude": -2.279521
             },
-            "destination": "OKKK"
+            "destination": {
+                "ICAO": "OKKK",
+                "name": "Kuwait International Airport",
+                "latitude": 29.226600646972656,
+                "longitude": 47.96889877319336
+            }
         },
         {
             "departure": {
@@ -1302,7 +1312,12 @@
                 "latitude": 51.148102,
                 "longitude": -0.190278
             },
-            "destination": "FLKK"
+            "destination": {
+                "ICAO": "FLKK",
+                "name": "Kenneth Kaunda International Airport",
+                "latitude": -15.330817,
+                "longitude": 28.452628
+            }
         },
         {
             "departure": {
@@ -1549,7 +1564,12 @@
                 "latitude": 53.349375,
                 "longitude": -2.279521
             },
-            "destination": "FLKK"
+            "destination": {
+                "ICAO": "FLKK",
+                "name": "Kenneth Kaunda International Airport",
+                "latitude": -15.330817,
+                "longitude": 28.452628
+            }
         },
         {
             "departure": {
@@ -1992,7 +2012,12 @@
                 "latitude": 51.4706,
                 "longitude": -0.461941
             },
-            "destination": "FLKK"
+            "destination": {
+                "ICAO": "FLKK",
+                "name": "Kenneth Kaunda International Airport",
+                "latitude": -15.330817,
+                "longitude": 28.452628
+            }
         },
         {
             "departure": {
@@ -2575,7 +2600,12 @@
                 "latitude": 53.33359909057617,
                 "longitude": -2.849720001220703
             },
-            "destination": "EPLB"
+            "destination": {
+                "ICAO": "EPLB",
+                "name": "Lublin Airport",
+                "latitude": 51.240278,
+                "longitude": 22.713611
+            }
         },
         {
             "departure": {

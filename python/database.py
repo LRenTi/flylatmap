@@ -131,6 +131,7 @@ def get_Routes(path, table):
         }
         
         index = 0
+        count_missing_airports = 0
                 
         for item in tqdm(departure_destination_list):
             for airport in ['departure', 'destination']:
@@ -158,6 +159,7 @@ def get_Routes(path, table):
                                 'longitude': None
                             }
                             print(f"\nCould not find coordinates for {icao_code}")
+                            count_missing_airports += 1
                         if table.table[index] is None:
                             table.addAirport(Airport(icao_code, name, latitude, longitude))
                     else:
@@ -170,6 +172,8 @@ def get_Routes(path, table):
         
         with open(newpath, 'w') as f:
             json.dump(newdata, f)
+        
+        return count_missing_airports
 def extract_departure_destination(id):
     url = "https://flylat.net/company/get_routes.php?id=" + str(id)
     name_url = "https://flylat.net/company/" + str(id)
