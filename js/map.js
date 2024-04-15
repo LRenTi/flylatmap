@@ -28,7 +28,7 @@ function chooseAirline() {
 function createMap(id) {
     $("#map").hide();
     $("#error").hide();
-    $("#airline-picture").attr("src", "https://flylat.net/images/airlines/" + id + ".png")
+    $("#airline-picture").attr("src", "https://flylat.net/images/airlines/" + id + ".png").css("max-width", "60px").css("max-height", "60px")  
 
     $.ajax({
         url: "data/Routes/" + id + ".json",
