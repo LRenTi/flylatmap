@@ -2,9 +2,6 @@ import requests
 import json
 import os
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 from dotenv import load_dotenv
