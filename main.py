@@ -1,5 +1,5 @@
-import database as db
-import create_site as cs
+import python.database as db
+import python.create_site as cs
 import os
 import json
 
@@ -11,7 +11,9 @@ def main():
     airport_table = db.Hashtable()
     airport_table.loadTable(filename)
     
-    with open('data/airlines.json', 'r') as f:
+    count_missing_airports = 0
+    
+    with open(airlinefile, 'r') as f:
         data = json.load(f)
         print(data)
     
@@ -20,7 +22,7 @@ def main():
         path = db.extract_departure_destination(airline_id)
         
         if path:
-            db.get_Routes(path, airport_table)
+            count_missing_airports += db.get_Routes(path, airport_table)
             if os.path.exists(path):
                 os.remove(path)
             #cs.create_site(airline_id)
@@ -29,6 +31,7 @@ def main():
             print("Data could not be retrieved for airline ID:", airline_id)
     
     airport_table.saveTable("airports")
+    print("Missing airports:", count_missing_airports)
 
 if __name__ == "__main__":
     main()

@@ -1,22 +1,8 @@
 {
-    "name": "Soarin",
+    "name": "Soarin (Swallow)",
     "id": "100084",
-    "updateTimestamp": 1712689032.8199813,
+    "updateTimestamp": 1713190613.4949942,
     "routes": [
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "BIKF",
-                "name": "Keflavik International Airport",
-                "latitude": 63.985001,
-                "longitude": -22.6056
-            }
-        },
         {
             "departure": {
                 "ICAO": "EGCC",
@@ -257,20 +243,6 @@
         },
         {
             "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "GCTS",
-                "name": "Tenerife South Airport",
-                "latitude": 28.0445,
-                "longitude": -16.5725
-            }
-        },
-        {
-            "departure": {
                 "ICAO": "EGCC",
                 "name": "Manchester Airport",
                 "latitude": 53.349375,
@@ -290,7 +262,12 @@
                 "latitude": 51.4706,
                 "longitude": -0.461941
             },
-            "destination": "OKKK"
+            "destination": {
+                "ICAO": "OKKK",
+                "name": "Kuwait International Airport",
+                "latitude": 29.226600646972656,
+                "longitude": 47.96889877319336
+            }
         },
         {
             "departure": {
@@ -313,7 +290,12 @@
                 "latitude": 53.349375,
                 "longitude": -2.279521
             },
-            "destination": "OKKK"
+            "destination": {
+                "ICAO": "OKKK",
+                "name": "Kuwait International Airport",
+                "latitude": 29.226600646972656,
+                "longitude": 47.96889877319336
+            }
         },
         {
             "departure": {
@@ -391,20 +373,6 @@
                 "name": "Manchester Airport",
                 "latitude": 53.349375,
                 "longitude": -2.279521
-            },
-            "destination": {
-                "ICAO": "VABB",
-                "name": "Chhatrapati Shivaji International Airport",
-                "latitude": 19.0886993408,
-                "longitude": 72.8678970337
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
             },
             "destination": {
                 "ICAO": "VABB",
@@ -555,20 +523,6 @@
         },
         {
             "departure": {
-                "ICAO": "EDHI",
-                "name": "Hamburg-Finkenwerder Airport",
-                "latitude": 53.5352783203125,
-                "longitude": 9.835556030273438
-            },
-            "destination": {
-                "ICAO": "EGCC",
-                "name": "Manchester Airport",
-                "latitude": 53.349375,
-                "longitude": -2.279521
-            }
-        },
-        {
-            "departure": {
                 "ICAO": "EGCC",
                 "name": "Manchester Airport",
                 "latitude": 53.349375,
@@ -621,20 +575,6 @@
                 "name": "Budapest Liszt Ferenc International Airport",
                 "latitude": 47.42976,
                 "longitude": 19.261093
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "EKCH",
-                "name": "Copenhagen Kastrup Airport",
-                "latitude": 55.617900848389,
-                "longitude": 12.656000137329
             }
         },
         {
@@ -933,20 +873,6 @@
         },
         {
             "departure": {
-                "ICAO": "EDHI",
-                "name": "Hamburg-Finkenwerder Airport",
-                "latitude": 53.5352783203125,
-                "longitude": 9.835556030273438
-            },
-            "destination": {
-                "ICAO": "EGGP",
-                "name": "Liverpool John Lennon Airport",
-                "latitude": 53.33359909057617,
-                "longitude": -2.849720001220703
-            }
-        },
-        {
-            "departure": {
                 "ICAO": "EGGP",
                 "name": "Liverpool John Lennon Airport",
                 "latitude": 53.33359909057617,
@@ -1017,529 +943,100 @@
         },
         {
             "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
+                "ICAO": "EGSS",
+                "name": "London Stansted Airport",
+                "latitude": 51.8849983215,
+                "longitude": 0.234999999404
             },
             "destination": {
-                "ICAO": "MYNN",
-                "name": "Lynden Pindling International Airport",
-                "latitude": 25.039,
-                "longitude": -77.466202
+                "ICAO": "LEIB",
+                "name": "Ibiza Airport",
+                "latitude": 38.872898,
+                "longitude": 1.37312
             }
         },
         {
             "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
+                "ICAO": "EGSS",
+                "name": "London Stansted Airport",
+                "latitude": 51.8849983215,
+                "longitude": 0.234999999404
             },
             "destination": {
-                "ICAO": "TBPB",
-                "name": "Grantley Adams International Airport",
-                "latitude": 13.0746,
-                "longitude": -59.4925
+                "ICAO": "LPMA",
+                "name": "Madeira Airport",
+                "latitude": 32.697899,
+                "longitude": -16.7745
             }
         },
         {
             "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
+                "ICAO": "EGSS",
+                "name": "London Stansted Airport",
+                "latitude": 51.8849983215,
+                "longitude": 0.234999999404
             },
             "destination": {
-                "ICAO": "WMKK",
-                "name": "Kuala Lumpur International Airport",
-                "latitude": 2.745579957962,
-                "longitude": 101.70999908447
+                "ICAO": "LXGB",
+                "name": "Gibraltar Airport",
+                "latitude": 36.1511993408,
+                "longitude": -5.3496599197400005
             }
         },
         {
             "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
+                "ICAO": "EGSS",
+                "name": "London Stansted Airport",
+                "latitude": 51.8849983215,
+                "longitude": 0.234999999404
             },
             "destination": {
-                "ICAO": "VTBS",
-                "name": "Suvarnabhumi Airport",
-                "latitude": 13.681099891662598,
-                "longitude": 100.74700164794922
+                "ICAO": "LEAL",
+                "name": "Alicante International Airport",
+                "latitude": 38.28219985961914,
+                "longitude": -0.5581560134887695
             }
         },
         {
             "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
+                "ICAO": "EGSS",
+                "name": "London Stansted Airport",
+                "latitude": 51.8849983215,
+                "longitude": 0.234999999404
             },
             "destination": {
-                "ICAO": "VRMM",
-                "name": "Mal\u00e9 International Airport",
-                "latitude": 4.191830158233643,
-                "longitude": 73.52909851074219
+                "ICAO": "EPGD",
+                "name": "Gda\u0144sk Lech Wa\u0142\u0119sa Airport",
+                "latitude": 54.377601623535156,
+                "longitude": 18.46619987487793
             }
         },
         {
             "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
+                "ICAO": "EGSS",
+                "name": "London Stansted Airport",
+                "latitude": 51.8849983215,
+                "longitude": 0.234999999404
             },
             "destination": {
-                "ICAO": "VOBL",
-                "name": "Kempegowda International Airport",
-                "latitude": 13.1979,
-                "longitude": 77.706299
+                "ICAO": "EPKK",
+                "name": "Krak\u00f3w John Paul II International Airport",
+                "latitude": 50.077702,
+                "longitude": 19.7848
             }
         },
         {
             "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
+                "ICAO": "EGSS",
+                "name": "London Stansted Airport",
+                "latitude": 51.8849983215,
+                "longitude": 0.234999999404
             },
             "destination": {
-                "ICAO": "VOMM",
-                "name": "Chennai International Airport",
-                "latitude": 12.990005,
-                "longitude": 80.169296
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "VIDP",
-                "name": "Indira Gandhi International Airport",
-                "latitude": 28.5665,
-                "longitude": 77.103104
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "VCBI",
-                "name": "Bandaranaike International Colombo Airport",
-                "latitude": 7.180759906768799,
-                "longitude": 79.88410186767578
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "OEJN",
-                "name": "King Abdulaziz International Airport",
-                "latitude": 21.6796,
-                "longitude": 39.156502
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "HECA",
-                "name": "Cairo International Airport",
-                "latitude": 30.12190055847168,
-                "longitude": 31.40559959411621
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "OKBK",
-                "name": "Kuwait International Airport",
-                "latitude": 29.226600646972656,
-                "longitude": 47.96889877319336
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "OMDB",
-                "name": "Dubai International Airport",
-                "latitude": 25.2527999878,
-                "longitude": 55.3643989563
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "DGAA",
-                "name": "Kotoka International Airport",
-                "latitude": 5.605189800262451,
-                "longitude": -0.16678600013256073
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "DNMM",
-                "name": "Murtala Muhammed International Airport",
-                "latitude": 6.5773701667785645,
-                "longitude": 3.321160078048706
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "HKMO",
-                "name": "Moi International Airport",
-                "latitude": -4.03483,
-                "longitude": 39.5942
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "HKJK",
-                "name": "Jomo Kenyatta International Airport",
-                "latitude": -1.31923997402,
-                "longitude": 36.9277992249
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "FIMP",
-                "name": "Sir Seewoosagur Ramgoolam International Airport",
-                "latitude": -20.430201,
-                "longitude": 57.683601
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "FVHA",
-                "name": "Robert Gabriel Mugabe International Airport",
-                "latitude": -17.931801,
-                "longitude": 31.0928
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "FNLU",
-                "name": "Quatro de Fevereiro Airport",
-                "latitude": -8.85837,
-                "longitude": 13.2312
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": "FLKK"
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "FAOR",
-                "name": "OR Tambo International Airport",
-                "latitude": -26.1392,
-                "longitude": 28.246
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "FACT",
-                "name": "Cape Town International Airport",
-                "latitude": -33.9648017883,
-                "longitude": 18.6016998291
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "LTAC",
-                "name": "Esenbo\u011fa International Airport",
-                "latitude": 40.128101348899996,
-                "longitude": 32.995098114
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "LMML",
-                "name": "Malta International Airport",
-                "latitude": 35.857498,
-                "longitude": 14.4775
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "LIRN",
-                "name": "Naples International Airport",
-                "latitude": 40.886002,
-                "longitude": 14.2908
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "LICJ",
-                "name": "Falcone\u2013Borsellino Airport",
-                "latitude": 38.175999,
-                "longitude": 13.091
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "LIBD",
-                "name": "Bari Karol Wojty\u0142a Airport",
-                "latitude": 41.138901,
-                "longitude": 16.760599
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "LEPA",
-                "name": "Palma De Mallorca Airport",
-                "latitude": 39.551700592,
-                "longitude": 2.73881006241
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "LDDU",
-                "name": "Dubrovnik Airport",
-                "latitude": 42.5614013671875,
-                "longitude": 18.268199920654297
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "LDZD",
-                "name": "Zadar Airport",
-                "latitude": 44.108299,
-                "longitude": 15.3467
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "LIRF",
-                "name": "Leonardo da Vinci\u2013Fiumicino Airport",
-                "latitude": 41.8002778,
-                "longitude": 12.2388889
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "LHBP",
-                "name": "Budapest Liszt Ferenc International Airport",
-                "latitude": 47.42976,
-                "longitude": 19.261093
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "ESSA",
-                "name": "Stockholm-Arlanda Airport",
-                "latitude": 59.651901245117,
-                "longitude": 17.918600082397
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "EPWA",
-                "name": "Warsaw Chopin Airport",
-                "latitude": 52.1656990051,
-                "longitude": 20.967100143399996
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "ENGM",
-                "name": "Oslo Gardermoen Airport",
-                "latitude": 60.193901062012,
-                "longitude": 11.100399971008
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "EFHK",
-                "name": "Helsinki Vantaa Airport",
-                "latitude": 60.3172,
-                "longitude": 24.963301
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "LDSP",
-                "name": "Split Airport",
-                "latitude": 43.53889846801758,
-                "longitude": 16.29800033569336
+                "ICAO": "EDHI",
+                "name": "Hamburg-Finkenwerder Airport",
+                "latitude": 53.5352783203125,
+                "longitude": 9.835556030273438
             }
         },
         {
@@ -1549,7 +1046,12 @@
                 "latitude": 53.349375,
                 "longitude": -2.279521
             },
-            "destination": "FLKK"
+            "destination": {
+                "ICAO": "FLKK",
+                "name": "Kenneth Kaunda International Airport",
+                "latitude": -15.330817,
+                "longitude": 28.452628
+            }
         },
         {
             "departure": {
@@ -1917,20 +1419,6 @@
         },
         {
             "departure": {
-                "ICAO": "EGKK",
-                "name": "London Gatwick Airport",
-                "latitude": 51.148102,
-                "longitude": -0.190278
-            },
-            "destination": {
-                "ICAO": "ENTC",
-                "name": "Troms\u00f8 Airport",
-                "latitude": 69.68329620361328,
-                "longitude": 18.918899536132812
-            }
-        },
-        {
-            "departure": {
                 "ICAO": "EGLL",
                 "name": "London Heathrow Airport",
                 "latitude": 51.4706,
@@ -1992,7 +1480,12 @@
                 "latitude": 51.4706,
                 "longitude": -0.461941
             },
-            "destination": "FLKK"
+            "destination": {
+                "ICAO": "FLKK",
+                "name": "Kenneth Kaunda International Airport",
+                "latitude": -15.330817,
+                "longitude": 28.452628
+            }
         },
         {
             "departure": {
@@ -2570,12 +2063,31 @@
         },
         {
             "departure": {
+                "ICAO": "EGCC",
+                "name": "Manchester Airport",
+                "latitude": 53.349375,
+                "longitude": -2.279521
+            },
+            "destination": {
+                "ICAO": "EDHI",
+                "name": "Hamburg-Finkenwerder Airport",
+                "latitude": 53.5352783203125,
+                "longitude": 9.835556030273438
+            }
+        },
+        {
+            "departure": {
                 "ICAO": "EGGP",
                 "name": "Liverpool John Lennon Airport",
                 "latitude": 53.33359909057617,
                 "longitude": -2.849720001220703
             },
-            "destination": "EPLB"
+            "destination": {
+                "ICAO": "EPLB",
+                "name": "Lublin Airport",
+                "latitude": 51.240278,
+                "longitude": 22.713611
+            }
         },
         {
             "departure": {

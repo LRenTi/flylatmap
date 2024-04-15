@@ -27,7 +27,8 @@ function chooseAirline() {
 
 function createMap(id) {
     $("#map").hide();
-    $("#airline-picture").attr("src", "https://flylat.net/images/airlines/" + id + ".png")
+    $("#error").hide();
+    $("#airline-picture").attr("src", "https://flylat.net/images/airlines/" + id + ".png").css("max-width", "60px").css("max-height", "60px")  
 
     $.ajax({
         url: "data/Routes/" + id + ".json",
@@ -107,7 +108,7 @@ function createMap(id) {
                 $("#error").append("<p class=\"alert alert-danger\" role=\"alert\">Unauthorized! Please check your GitHub Token</p>");
             }
             if (response.status === 404) {
-                $("#error").append("<p class=\"alert alert-danger\" role=\"alert\">Airline not found!</p>");
+                $("#error").html("<p class=\"alert alert-danger\" role=\"alert\">Airline not found!</p>");
             }
         }
     })   

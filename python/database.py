@@ -2,9 +2,6 @@ import requests
 import json
 import os
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 from dotenv import load_dotenv
@@ -117,7 +114,6 @@ def get_airport_info(icao_code):
         else:
             longitude = None
         return name, latitude, longitude
-
 def get_Routes(path, table):
     with open(path, 'r') as f:
         data = json.load(f)
@@ -132,6 +128,7 @@ def get_Routes(path, table):
         }
         
         index = 0
+        count_missing_airports = 0
                 
         for item in tqdm(departure_destination_list):
             for airport in ['departure', 'destination']:
@@ -163,6 +160,7 @@ def get_Routes(path, table):
                             table.addAirport(Airport(icao_code, name, latitude, longitude))
                     else:
                         print(f"\nCould not retrieve data for {icao_code}")
+                        count_missing_airports += 1
         newdata['routes'] = departure_destination_list
         
         folder = 'data/routes/'
@@ -171,9 +169,10 @@ def get_Routes(path, table):
         
         with open(newpath, 'w') as f:
             json.dump(newdata, f)
-
+        
+        return count_missing_airports
 def extract_departure_destination(id):
-    url = "https://flylat.net/company/routes/" + str(id)
+    url = "https://flylat.net/company/get_routes.php?id=" + str(id)
     name_url = "https://flylat.net/company/" + str(id)
     
     name_response = requests.get(name_url)
@@ -187,32 +186,21 @@ def extract_departure_destination(id):
         else:
             airline_name = None
     print(airline_name)
-    
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-
-    driver.get(url)
-
-    soup = BeautifulSoup(driver.page_source, 'html.parser')
      
     data = {
         'name': airline_name,
         'id': id,
         'routes': [],
     }
+    
+    response = requests.get(url)
+    
+    if response.status_code == 200:
+        routes = response.json()
 
-    tables = soup.find_all('table')
-    for table in tables:
-        rows = table.find_all('tr')
-        departure = ""
-        destination = ""
-        for row in rows:
-            cells = row.find_all('td')
-            if cells[0].text.strip() == 'Departure':
-                departure = cells[1].text.strip()
-            elif cells[0].text.strip() == 'Destination':
-                destination = cells[1].text.strip()
-                break 
-        if departure and destination:
+        for route in tqdm(routes):
+            departure = route['dep']
+            destination = route['des']
             data['routes'].append({"departure": departure, "destination": destination})
             
     save_url = 'Data/tmp_' + str(id) +'.json'
@@ -220,6 +208,5 @@ def extract_departure_destination(id):
         json.dump(data, f)
         tqdm.write("Extracted data saved successfully.")
 
-    driver.quit()
 
     return save_url
