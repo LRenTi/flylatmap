@@ -1,5 +1,5 @@
-import database as db
-import create_site as cs
+import python.database as db
+import python.create_site as cs
 import os
 import json
 
@@ -13,7 +13,7 @@ def main():
     
     count_missing_airports = 0
     
-    with open('data/airlines.json', 'r') as f:
+    with open(airlinefile, 'r') as f:
         data = json.load(f)
         print(data)
     

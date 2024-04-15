@@ -1,7 +1,7 @@
 import folium
 import json
 from branca.element import Template, MacroElement
-from database import mkdir
+import os
 
 def create_site(id):
     path = f'data/routes/{id}.json'
@@ -53,7 +53,7 @@ def create_site(id):
 
     filename = f'{id}.html'
     folder = 'maps/'
-    mkdir(folder)
+    os.mkdir(folder)
     path = folder + filename
     m.save(path)
     

@@ -1,5 +1,12 @@
 [
     {
+        "Index": 1558,
+        "ICAO": "EICK",
+        "Name": "Cork Airport",
+        "Latitude": 51.84130096435547,
+        "Longitude": -8.491109848022461
+    },
+    {
         "Index": 1601,
         "ICAO": "KJAC",
         "Name": "Jackson Hole Airport",
@@ -49,11 +56,25 @@
         "Longitude": -73.7789
     },
     {
+        "Index": 2423,
+        "ICAO": "LFKB",
+        "Name": "Bastia-Poretta Airport",
+        "Latitude": 42.55270004272461,
+        "Longitude": 9.48373031616211
+    },
+    {
         "Index": 2430,
         "ICAO": "EINN",
         "Name": "Shannon Airport",
         "Latitude": 52.702,
         "Longitude": -8.92482
+    },
+    {
+        "Index": 2431,
+        "ICAO": "LFKJ",
+        "Name": "Ajaccio-Napol\u00e9on Bonaparte Airport",
+        "Latitude": 41.92359924316406,
+        "Longitude": 8.8029203414917
     },
     {
         "Index": 2467,
@@ -82,6 +103,13 @@
         "Name": "Nice-C\u00f4te d'Azur Airport",
         "Latitude": 43.6584014893,
         "Longitude": 7.215869903560001
+    },
+    {
+        "Index": 2595,
+        "ICAO": "LFMP",
+        "Name": "Perpignan-Rivesaltes (Llaban\u00e8re) Airport",
+        "Latitude": 42.74039840698242,
+        "Longitude": 2.8706700801849365
     },
     {
         "Index": 2599,
@@ -168,11 +196,25 @@
         "Longitude": 19.911699295043945
     },
     {
+        "Index": 8831,
+        "ICAO": "LGMK",
+        "Name": "Mikonos Airport",
+        "Latitude": 37.43510055541992,
+        "Longitude": 25.348100662231445
+    },
+    {
         "Index": 9058,
         "ICAO": "WMKK",
         "Name": "Kuala Lumpur International Airport",
         "Latitude": 2.745579957962,
         "Longitude": 101.70999908447
+    },
+    {
+        "Index": 9305,
+        "ICAO": "LGSK",
+        "Name": "Skiathos Island National Airport",
+        "Latitude": 39.177101135253906,
+        "Longitude": 23.503700256347656
     },
     {
         "Index": 9392,
@@ -427,6 +469,13 @@
         "Longitude": -81.30899810791016
     },
     {
+        "Index": 20515,
+        "ICAO": "LICC",
+        "Name": "Catania-Fontanarossa Airport",
+        "Latitude": 37.466801,
+        "Longitude": 15.0664
+    },
+    {
         "Index": 20522,
         "ICAO": "LICJ",
         "Name": "Falcone\u2013Borsellino Airport",
@@ -446,6 +495,13 @@
         "Name": "Memphis International Airport",
         "Latitude": 35.04240036010742,
         "Longitude": -89.97669982910156
+    },
+    {
+        "Index": 20675,
+        "ICAO": "LIEE",
+        "Name": "Cagliari Elmas Airport",
+        "Latitude": 39.251499,
+        "Longitude": 9.05428
     },
     {
         "Index": 20685,
@@ -481,6 +537,20 @@
         "Name": "Turin Airport",
         "Latitude": 45.200802,
         "Longitude": 7.64963
+    },
+    {
+        "Index": 21312,
+        "ICAO": "LIMJ",
+        "Name": "Genoa Cristoforo Colombo Airport",
+        "Latitude": 44.4133,
+        "Longitude": 8.8375
+    },
+    {
+        "Index": 21544,
+        "ICAO": "LIPE",
+        "Name": "Bologna Guglielmo Marconi Airport",
+        "Latitude": 44.5354,
+        "Longitude": 11.2887
     },
     {
         "Index": 21565,
@@ -796,6 +866,13 @@
         "Name": "Ontario International Airport",
         "Latitude": 34.055999755859375,
         "Longitude": -117.60099792480469
+    },
+    {
+        "Index": 34039,
+        "ICAO": "LKPR",
+        "Name": "V\u00e1clav Havel Airport Prague",
+        "Latitude": 50.1008,
+        "Longitude": 14.26
     },
     {
         "Index": 34098,
@@ -1281,6 +1358,13 @@
         "Longitude": 9.98823
     },
     {
+        "Index": 48439,
+        "ICAO": "EDDK",
+        "Name": "Cologne Bonn Airport",
+        "Latitude": 50.8658981323,
+        "Longitude": 7.1427397728
+    },
+    {
         "Index": 48440,
         "ICAO": "EDDL",
         "Name": "D\u00fcsseldorf Airport",
@@ -1293,6 +1377,20 @@
         "Name": "Munich Airport",
         "Latitude": 48.353802,
         "Longitude": 11.7861
+    },
+    {
+        "Index": 48450,
+        "ICAO": "EDDV",
+        "Name": "Hannover Airport",
+        "Latitude": 52.461101532,
+        "Longitude": 9.685079574580001
+    },
+    {
+        "Index": 48451,
+        "ICAO": "EDDW",
+        "Name": "Bremen Airport",
+        "Latitude": 53.0475006104,
+        "Longitude": 8.78666973114
     },
     {
         "Index": 48753,
@@ -1314,6 +1412,13 @@
         "Name": "El Paso International Airport",
         "Latitude": 31.80719948,
         "Longitude": -106.3779984
+    },
+    {
+        "Index": 50031,
+        "ICAO": "EDXW",
+        "Name": "Westerland Sylt Airport",
+        "Latitude": 54.9132003784,
+        "Longitude": 8.34047031403
     },
     {
         "Index": 51542,
@@ -2161,6 +2266,13 @@
         "Name": "Kempegowda International Airport",
         "Latitude": 13.1979,
         "Longitude": 77.706299
+    },
+    {
+        "Index": 73876,
+        "ICAO": "LEGE",
+        "Name": "Girona Airport",
+        "Latitude": 41.901000977,
+        "Longitude": 2.7605500221
     },
     {
         "Index": 74031,

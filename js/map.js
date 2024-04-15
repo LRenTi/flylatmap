@@ -27,6 +27,7 @@ function chooseAirline() {
 
 function createMap(id) {
     $("#map").hide();
+    $("#error").hide();
     $("#airline-picture").attr("src", "https://flylat.net/images/airlines/" + id + ".png")
 
     $.ajax({
@@ -107,7 +108,7 @@ function createMap(id) {
                 $("#error").append("<p class=\"alert alert-danger\" role=\"alert\">Unauthorized! Please check your GitHub Token</p>");
             }
             if (response.status === 404) {
-                $("#error").append("<p class=\"alert alert-danger\" role=\"alert\">Airline not found!</p>");
+                $("#error").html("<p class=\"alert alert-danger\" role=\"alert\">Airline not found!</p>");
             }
         }
     })   
