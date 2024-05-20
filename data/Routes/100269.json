@@ -1,7 +1,7 @@
 {
-    "name": "Condor Airlines (CFG)",
+    "name": "Apollo Airways (APA)",
     "id": "100269",
-    "updateTimestamp": 1713802754.9879906,
+    "updateTimestamp": 1716208654.2356446,
     "routes": [
         {
             "departure": {
@@ -15,6 +15,20 @@
                 "name": "Manchester Airport",
                 "latitude": 53.349375,
                 "longitude": -2.279521
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EDDM",
+                "name": "Munich Airport",
+                "latitude": 48.353802,
+                "longitude": 11.7861
+            },
+            "destination": {
+                "ICAO": "KBOS",
+                "name": "Logan International Airport",
+                "latitude": 42.3643,
+                "longitude": -71.005203
             }
         },
         {
@@ -187,6 +201,20 @@
         },
         {
             "departure": {
+                "ICAO": "EDDM",
+                "name": "Munich Airport",
+                "latitude": 48.353802,
+                "longitude": 11.7861
+            },
+            "destination": {
+                "ICAO": "EGLL",
+                "name": "London Heathrow Airport",
+                "latitude": 51.4706,
+                "longitude": -0.461941
+            }
+        },
+        {
+            "departure": {
                 "ICAO": "EKCH",
                 "name": "Copenhagen Kastrup Airport",
                 "latitude": 55.617900848389,
@@ -271,20 +299,6 @@
         },
         {
             "departure": {
-                "ICAO": "EDDM",
-                "name": "Munich Airport",
-                "latitude": 48.353802,
-                "longitude": 11.7861
-            },
-            "destination": {
-                "ICAO": "EGLL",
-                "name": "London Heathrow Airport",
-                "latitude": 51.4706,
-                "longitude": -0.461941
-            }
-        },
-        {
-            "departure": {
                 "ICAO": "EKCH",
                 "name": "Copenhagen Kastrup Airport",
                 "latitude": 55.617900848389,
@@ -327,6 +341,62 @@
         },
         {
             "departure": {
+                "ICAO": "EDDH",
+                "name": "Hamburg Helmut Schmidt Airport",
+                "latitude": 53.630402,
+                "longitude": 9.98823
+            },
+            "destination": {
+                "ICAO": "LEAL",
+                "name": "Alicante International Airport",
+                "latitude": 38.28219985961914,
+                "longitude": -0.5581560134887695
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EDDM",
+                "name": "Munich Airport",
+                "latitude": 48.353802,
+                "longitude": 11.7861
+            },
+            "destination": {
+                "ICAO": "EDDB",
+                "name": "Berlin Brandenburg Airport",
+                "latitude": 52.351389,
+                "longitude": 13.493889
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EDDM",
+                "name": "Munich Airport",
+                "latitude": 48.353802,
+                "longitude": 11.7861
+            },
+            "destination": {
+                "ICAO": "LEMG",
+                "name": "M\u00e1laga Airport",
+                "latitude": 36.67490005493164,
+                "longitude": -4.499110221862793
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EDDH",
+                "name": "Hamburg Helmut Schmidt Airport",
+                "latitude": 53.630402,
+                "longitude": 9.98823
+            },
+            "destination": {
+                "ICAO": "LEMG",
+                "name": "M\u00e1laga Airport",
+                "latitude": 36.67490005493164,
+                "longitude": -4.499110221862793
+            }
+        },
+        {
+            "departure": {
                 "ICAO": "EDDM",
                 "name": "Munich Airport",
                 "latitude": 48.353802,
@@ -337,6 +407,20 @@
                 "name": "Cologne Bonn Airport",
                 "latitude": 50.8658981323,
                 "longitude": 7.1427397728
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EDDM",
+                "name": "Munich Airport",
+                "latitude": 48.353802,
+                "longitude": 11.7861
+            },
+            "destination": {
+                "ICAO": "LIPE",
+                "name": "Bologna Guglielmo Marconi Airport",
+                "latitude": 44.5354,
+                "longitude": 11.2887
             }
         },
         {
@@ -365,20 +449,6 @@
                 "name": "Bremen Airport",
                 "latitude": 53.0475006104,
                 "longitude": 8.78666973114
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EDDM",
-                "name": "Munich Airport",
-                "latitude": 48.353802,
-                "longitude": 11.7861
-            },
-            "destination": {
-                "ICAO": "EDDB",
-                "name": "Berlin Brandenburg Airport",
-                "latitude": 52.351389,
-                "longitude": 13.493889
             }
         },
         {
@@ -459,10 +529,10 @@
                 "longitude": 11.7861
             },
             "destination": {
-                "ICAO": "LIPE",
-                "name": "Bologna Guglielmo Marconi Airport",
-                "latitude": 44.5354,
-                "longitude": 11.2887
+                "ICAO": "LEAL",
+                "name": "Alicante International Airport",
+                "latitude": 38.28219985961914,
+                "longitude": -0.5581560134887695
             }
         },
         {
@@ -495,6 +565,20 @@
         },
         {
             "departure": {
+                "ICAO": "EDDH",
+                "name": "Hamburg Helmut Schmidt Airport",
+                "latitude": 53.630402,
+                "longitude": 9.98823
+            },
+            "destination": {
+                "ICAO": "LIPZ",
+                "name": "Venice Marco Polo Airport",
+                "latitude": 45.505299,
+                "longitude": 12.3519
+            }
+        },
+        {
+            "departure": {
                 "ICAO": "EDDM",
                 "name": "Munich Airport",
                 "latitude": 48.353802,
@@ -505,6 +589,20 @@
                 "name": "D\u00fcsseldorf Airport",
                 "latitude": 51.289501,
                 "longitude": 6.76678
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EDDF",
+                "name": "Frankfurt am Main Airport",
+                "latitude": 50.033333,
+                "longitude": 8.570556
+            },
+            "destination": {
+                "ICAO": "EGCC",
+                "name": "Manchester Airport",
+                "latitude": 53.349375,
+                "longitude": -2.279521
             }
         },
         {
@@ -575,20 +673,6 @@
                 "name": "London Gatwick Airport",
                 "latitude": 51.148102,
                 "longitude": -0.190278
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EDDM",
-                "name": "Munich Airport",
-                "latitude": 48.353802,
-                "longitude": 11.7861
-            },
-            "destination": {
-                "ICAO": "KBOS",
-                "name": "Logan International Airport",
-                "latitude": 42.3643,
-                "longitude": -71.005203
             }
         },
         {
@@ -789,20 +873,6 @@
         },
         {
             "departure": {
-                "ICAO": "EDDF",
-                "name": "Frankfurt am Main Airport",
-                "latitude": 50.033333,
-                "longitude": 8.570556
-            },
-            "destination": {
-                "ICAO": "EGCC",
-                "name": "Manchester Airport",
-                "latitude": 53.349375,
-                "longitude": -2.279521
-            }
-        },
-        {
-            "departure": {
                 "ICAO": "EDDM",
                 "name": "Munich Airport",
                 "latitude": 48.353802,
@@ -827,6 +897,20 @@
                 "name": "Genoa Cristoforo Colombo Airport",
                 "latitude": 44.4133,
                 "longitude": 8.8375
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EDDM",
+                "name": "Munich Airport",
+                "latitude": 48.353802,
+                "longitude": 11.7861
+            },
+            "destination": {
+                "ICAO": "EKBI",
+                "name": "Billund Airport",
+                "latitude": 55.7402992249,
+                "longitude": 9.15178012848
             }
         }
     ]

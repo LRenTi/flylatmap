@@ -273,6 +273,13 @@
         "Longitude": 140.516006
     },
     {
+        "Index": 13959,
+        "ICAO": "EKBI",
+        "Name": "Billund Airport",
+        "Latitude": 55.7402992249,
+        "Longitude": 9.15178012848
+    },
+    {
         "Index": 14037,
         "ICAO": "EKCH",
         "Name": "Copenhagen Kastrup Airport",
@@ -481,6 +488,13 @@
         "Name": "Falcone\u2013Borsellino Airport",
         "Latitude": 38.175999,
         "Longitude": 13.091
+    },
+    {
+        "Index": 20564,
+        "ICAO": "RJAA",
+        "Name": "Narita International Airport",
+        "Latitude": 35.764702,
+        "Longitude": 140.386002
     },
     {
         "Index": 20644,

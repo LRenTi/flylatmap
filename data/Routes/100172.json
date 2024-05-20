@@ -1,7 +1,7 @@
 {
     "name": "AVIAN Air (AVA)",
     "id": "100172",
-    "updateTimestamp": 1713802752.446824,
+    "updateTimestamp": 1716208651.2428076,
     "routes": [
         {
             "departure": {
@@ -389,6 +389,20 @@
                 "longitude": 16.5697
             },
             "destination": {
+                "ICAO": "EDDM",
+                "name": "Munich Airport",
+                "latitude": 48.353802,
+                "longitude": 11.7861
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "LOWW",
+                "name": "Vienna International Airport",
+                "latitude": 48.110298,
+                "longitude": 16.5697
+            },
+            "destination": {
                 "ICAO": "EDDF",
                 "name": "Frankfurt am Main Airport",
                 "latitude": 50.033333,
@@ -473,20 +487,6 @@
                 "longitude": 16.5697
             },
             "destination": {
-                "ICAO": "EDDM",
-                "name": "Munich Airport",
-                "latitude": 48.353802,
-                "longitude": 11.7861
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "LOWW",
-                "name": "Vienna International Airport",
-                "latitude": 48.110298,
-                "longitude": 16.5697
-            },
-            "destination": {
                 "ICAO": "EIDW",
                 "name": "Dublin Airport",
                 "latitude": 53.421299,
@@ -561,6 +561,20 @@
                 "name": "John F Kennedy International Airport",
                 "latitude": 40.639801,
                 "longitude": -73.7789
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "LOWW",
+                "name": "Vienna International Airport",
+                "latitude": 48.110298,
+                "longitude": 16.5697
+            },
+            "destination": {
+                "ICAO": "LGTS",
+                "name": "Thessaloniki Macedonia International Airport",
+                "latitude": 40.51969909667969,
+                "longitude": 22.97089958190918
             }
         },
         {
@@ -1041,6 +1055,20 @@
         },
         {
             "departure": {
+                "ICAO": "EGLL",
+                "name": "London Heathrow Airport",
+                "latitude": 51.4706,
+                "longitude": -0.461941
+            },
+            "destination": {
+                "ICAO": "EIDW",
+                "name": "Dublin Airport",
+                "latitude": 53.421299,
+                "longitude": -6.27007
+            }
+        },
+        {
+            "departure": {
                 "ICAO": "LOWW",
                 "name": "Vienna International Airport",
                 "latitude": 48.110298,
@@ -1065,20 +1093,6 @@
                 "name": "London Heathrow Airport",
                 "latitude": 51.4706,
                 "longitude": -0.461941
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EGLL",
-                "name": "London Heathrow Airport",
-                "latitude": 51.4706,
-                "longitude": -0.461941
-            },
-            "destination": {
-                "ICAO": "EIDW",
-                "name": "Dublin Airport",
-                "latitude": 53.421299,
-                "longitude": -6.27007
             }
         },
         {
@@ -1191,20 +1205,6 @@
                 "name": "Belgrade Nikola Tesla Airport",
                 "latitude": 44.8184013367,
                 "longitude": 20.3090991974
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "LOWW",
-                "name": "Vienna International Airport",
-                "latitude": 48.110298,
-                "longitude": 16.5697
-            },
-            "destination": {
-                "ICAO": "LGTS",
-                "name": "Thessaloniki Macedonia International Airport",
-                "latitude": 40.51969909667969,
-                "longitude": 22.97089958190918
             }
         },
         {
@@ -2119,6 +2119,48 @@
         },
         {
             "departure": {
+                "ICAO": "EHAM",
+                "name": "Amsterdam Airport Schiphol",
+                "latitude": 52.308601,
+                "longitude": 4.76389
+            },
+            "destination": {
+                "ICAO": "BIKF",
+                "name": "Keflavik International Airport",
+                "latitude": 63.985001,
+                "longitude": -22.6056
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EHAM",
+                "name": "Amsterdam Airport Schiphol",
+                "latitude": 52.308601,
+                "longitude": 4.76389
+            },
+            "destination": {
+                "ICAO": "ENGM",
+                "name": "Oslo Gardermoen Airport",
+                "latitude": 60.193901062012,
+                "longitude": 11.100399971008
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EHAM",
+                "name": "Amsterdam Airport Schiphol",
+                "latitude": 52.308601,
+                "longitude": 4.76389
+            },
+            "destination": {
+                "ICAO": "EIDW",
+                "name": "Dublin Airport",
+                "latitude": 53.421299,
+                "longitude": -6.27007
+            }
+        },
+        {
+            "departure": {
                 "ICAO": "LEBL",
                 "name": "Barcelona International Airport",
                 "latitude": 41.2971,
@@ -2185,6 +2227,62 @@
                 "name": "Quebec Jean Lesage International Airport",
                 "latitude": 46.7911,
                 "longitude": -71.393303
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EHAM",
+                "name": "Amsterdam Airport Schiphol",
+                "latitude": 52.308601,
+                "longitude": 4.76389
+            },
+            "destination": {
+                "ICAO": "EGLL",
+                "name": "London Heathrow Airport",
+                "latitude": 51.4706,
+                "longitude": -0.461941
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EDDM",
+                "name": "Munich Airport",
+                "latitude": 48.353802,
+                "longitude": 11.7861
+            },
+            "destination": {
+                "ICAO": "LEPA",
+                "name": "Palma De Mallorca Airport",
+                "latitude": 39.551700592,
+                "longitude": 2.73881006241
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EDDM",
+                "name": "Munich Airport",
+                "latitude": 48.353802,
+                "longitude": 11.7861
+            },
+            "destination": {
+                "ICAO": "LMML",
+                "name": "Malta International Airport",
+                "latitude": 35.857498,
+                "longitude": 14.4775
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EDDM",
+                "name": "Munich Airport",
+                "latitude": 48.353802,
+                "longitude": 11.7861
+            },
+            "destination": {
+                "ICAO": "LGAV",
+                "name": "Eleftherios Venizelos International Airport",
+                "latitude": 37.9364013672,
+                "longitude": 23.9444999695
             }
         }
     ]
