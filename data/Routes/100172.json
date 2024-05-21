@@ -1,7 +1,7 @@
 {
     "name": "AVIAN Air (AVA)",
     "id": "100172",
-    "updateTimestamp": 1716324324.056714,
+    "updateTimestamp": 1716324597.1670563,
     "routes": [
         {
             "departure": {
@@ -2675,6 +2675,20 @@
                 "name": "Osaka International Airport",
                 "latitude": 34.785499572753906,
                 "longitude": 135.43800354003906
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "LGAV",
+                "name": "Eleftherios Venizelos International Airport",
+                "latitude": 37.9364013672,
+                "longitude": 23.9444999695
+            },
+            "destination": {
+                "ICAO": "LIRF",
+                "name": "Leonardo da Vinci\u2013Fiumicino Airport",
+                "latitude": 41.8002778,
+                "longitude": 12.2388889
             }
         }
     ]
