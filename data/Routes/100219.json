@@ -1,7 +1,7 @@
 {
     "name": "Rocky Mountain Air (YELL)",
     "id": "100219",
-    "updateTimestamp": 1716208653.5861108,
+    "updateTimestamp": 1716324326.0897605,
     "routes": [
         {
             "departure": {
@@ -239,6 +239,20 @@
                 "name": "Daniel K Inouye International Airport",
                 "latitude": 21.32062,
                 "longitude": -157.924228
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "KORD",
+                "name": "Chicago O'Hare International Airport",
+                "latitude": 41.9786,
+                "longitude": -87.9048
+            },
+            "destination": {
+                "ICAO": "YMML",
+                "name": "Melbourne International Airport",
+                "latitude": -37.673302,
+                "longitude": 144.843002
             }
         },
         {
@@ -5153,20 +5167,6 @@
                 "name": "Charlotte Douglas International Airport",
                 "latitude": 35.2140007019043,
                 "longitude": -80.94309997558594
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "KORD",
-                "name": "Chicago O'Hare International Airport",
-                "latitude": 41.9786,
-                "longitude": -87.9048
-            },
-            "destination": {
-                "ICAO": "YMML",
-                "name": "Melbourne International Airport",
-                "latitude": -37.673302,
-                "longitude": 144.843002
             }
         },
         {

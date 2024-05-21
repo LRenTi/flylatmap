@@ -238,11 +238,25 @@
         "Longitude": 30.800501
     },
     {
+        "Index": 11373,
+        "ICAO": "WAAA",
+        "Name": "Hasanuddin International Airport",
+        "Latitude": -5.061629772186279,
+        "Longitude": 119.55400085449219
+    },
+    {
         "Index": 11406,
         "ICAO": "LTFM",
         "Name": "\u0130stanbul Airport",
         "Latitude": 41.261297,
         "Longitude": 28.741951
+    },
+    {
+        "Index": 11500,
+        "ICAO": "VECC",
+        "Name": "Netaji Subhash Chandra Bose International Airport",
+        "Latitude": 22.654699325561523,
+        "Longitude": 88.44670104980469
     },
     {
         "Index": 11577,
@@ -455,6 +469,13 @@
         "Longitude": 151.177001953125
     },
     {
+        "Index": 20432,
+        "ICAO": "NZAA",
+        "Name": "Auckland International Airport",
+        "Latitude": -37.008099,
+        "Longitude": 174.792007
+    },
+    {
         "Index": 20437,
         "ICAO": "LIBD",
         "Name": "Bari Karol Wojty\u0142a Airport",
@@ -530,6 +551,20 @@
         "Name": "Miami International Airport",
         "Latitude": 25.79319953918457,
         "Longitude": -80.29060363769531
+    },
+    {
+        "Index": 20964,
+        "ICAO": "RJFF",
+        "Name": "Fukuoka Airport",
+        "Latitude": 33.585899353027344,
+        "Longitude": 130.4510040283203
+    },
+    {
+        "Index": 20978,
+        "ICAO": "RJFT",
+        "Name": "Kumamoto Airport",
+        "Latitude": 32.83729934692383,
+        "Longitude": 130.85499572753906
     },
     {
         "Index": 21005,
@@ -712,6 +747,13 @@
         "Name": "Suvarnabhumi Airport",
         "Latitude": 13.681099891662598,
         "Longitude": 100.74700164794922
+    },
+    {
+        "Index": 27229,
+        "ICAO": "WPDL",
+        "Name": "Presidente Nicolau Lobato International Airport",
+        "Latitude": -8.54640007019,
+        "Longitude": 125.526000977
     },
     {
         "Index": 27350,
@@ -2091,6 +2133,13 @@
         "Name": "Jersey Airport",
         "Latitude": 49.20790100097656,
         "Longitude": -2.195509910583496
+    },
+    {
+        "Index": 67700,
+        "ICAO": "YBBN",
+        "Name": "Brisbane International Airport",
+        "Latitude": -27.384199142456055,
+        "Longitude": 153.11700439453125
     },
     {
         "Index": 67715,

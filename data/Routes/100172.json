@@ -1,7 +1,7 @@
 {
     "name": "AVIAN Air (AVA)",
     "id": "100172",
-    "updateTimestamp": 1716208651.2428076,
+    "updateTimestamp": 1716324324.056714,
     "routes": [
         {
             "departure": {
@@ -985,6 +985,20 @@
         },
         {
             "departure": {
+                "ICAO": "EGLL",
+                "name": "London Heathrow Airport",
+                "latitude": 51.4706,
+                "longitude": -0.461941
+            },
+            "destination": {
+                "ICAO": "EIDW",
+                "name": "Dublin Airport",
+                "latitude": 53.421299,
+                "longitude": -6.27007
+            }
+        },
+        {
+            "departure": {
                 "ICAO": "LOWW",
                 "name": "Vienna International Airport",
                 "latitude": 48.110298,
@@ -1055,20 +1069,6 @@
         },
         {
             "departure": {
-                "ICAO": "EGLL",
-                "name": "London Heathrow Airport",
-                "latitude": 51.4706,
-                "longitude": -0.461941
-            },
-            "destination": {
-                "ICAO": "EIDW",
-                "name": "Dublin Airport",
-                "latitude": 53.421299,
-                "longitude": -6.27007
-            }
-        },
-        {
-            "departure": {
                 "ICAO": "LOWW",
                 "name": "Vienna International Airport",
                 "latitude": 48.110298,
@@ -1079,6 +1079,34 @@
                 "name": "Innsbruck Airport",
                 "latitude": 47.260201,
                 "longitude": 11.344
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EHAM",
+                "name": "Amsterdam Airport Schiphol",
+                "latitude": 52.308601,
+                "longitude": 4.76389
+            },
+            "destination": {
+                "ICAO": "EIDW",
+                "name": "Dublin Airport",
+                "latitude": 53.421299,
+                "longitude": -6.27007
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EDDM",
+                "name": "Munich Airport",
+                "latitude": 48.353802,
+                "longitude": 11.7861
+            },
+            "destination": {
+                "ICAO": "EHAM",
+                "name": "Amsterdam Airport Schiphol",
+                "latitude": 52.308601,
+                "longitude": 4.76389
             }
         },
         {
@@ -1401,20 +1429,6 @@
                 "name": "Leonardo da Vinci\u2013Fiumicino Airport",
                 "latitude": 41.8002778,
                 "longitude": 12.2388889
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EDDM",
-                "name": "Munich Airport",
-                "latitude": 48.353802,
-                "longitude": 11.7861
-            },
-            "destination": {
-                "ICAO": "EHAM",
-                "name": "Amsterdam Airport Schiphol",
-                "latitude": 52.308601,
-                "longitude": 4.76389
             }
         },
         {
@@ -1867,6 +1881,20 @@
         },
         {
             "departure": {
+                "ICAO": "WADD",
+                "name": "Ngurah Rai (Bali) International Airport",
+                "latitude": -8.7481698989868,
+                "longitude": 115.16699981689
+            },
+            "destination": {
+                "ICAO": "WAAA",
+                "name": "Hasanuddin International Airport",
+                "latitude": -5.061629772186279,
+                "longitude": 119.55400085449219
+            }
+        },
+        {
+            "departure": {
                 "ICAO": "LOWW",
                 "name": "Vienna International Airport",
                 "latitude": 48.110298,
@@ -2119,6 +2147,202 @@
         },
         {
             "departure": {
+                "ICAO": "WAAA",
+                "name": "Hasanuddin International Airport",
+                "latitude": -5.061629772186279,
+                "longitude": 119.55400085449219
+            },
+            "destination": {
+                "ICAO": "WPDL",
+                "name": "Presidente Nicolau Lobato International Airport",
+                "latitude": -8.54640007019,
+                "longitude": 125.526000977
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "WSSS",
+                "name": "Singapore Changi Airport",
+                "latitude": 1.35019,
+                "longitude": 103.994003
+            },
+            "destination": {
+                "ICAO": "WIII",
+                "name": "Soekarno-Hatta International Airport",
+                "latitude": -6.1255698204,
+                "longitude": 106.65599823
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "WIII",
+                "name": "Soekarno-Hatta International Airport",
+                "latitude": -6.1255698204,
+                "longitude": 106.65599823
+            },
+            "destination": {
+                "ICAO": "WADD",
+                "name": "Ngurah Rai (Bali) International Airport",
+                "latitude": -8.7481698989868,
+                "longitude": 115.16699981689
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "VECC",
+                "name": "Netaji Subhash Chandra Bose International Airport",
+                "latitude": 22.654699325561523,
+                "longitude": 88.44670104980469
+            },
+            "destination": {
+                "ICAO": "VTBS",
+                "name": "Suvarnabhumi Airport",
+                "latitude": 13.681099891662598,
+                "longitude": 100.74700164794922
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "WSSS",
+                "name": "Singapore Changi Airport",
+                "latitude": 1.35019,
+                "longitude": 103.994003
+            },
+            "destination": {
+                "ICAO": "WIII",
+                "name": "Soekarno-Hatta International Airport",
+                "latitude": -6.1255698204,
+                "longitude": 106.65599823
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "VABB",
+                "name": "Chhatrapati Shivaji International Airport",
+                "latitude": 19.0886993408,
+                "longitude": 72.8678970337
+            },
+            "destination": {
+                "ICAO": "VECC",
+                "name": "Netaji Subhash Chandra Bose International Airport",
+                "latitude": 22.654699325561523,
+                "longitude": 88.44670104980469
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "OMDB",
+                "name": "Dubai International Airport",
+                "latitude": 25.2527999878,
+                "longitude": 55.3643989563
+            },
+            "destination": {
+                "ICAO": "VABB",
+                "name": "Chhatrapati Shivaji International Airport",
+                "latitude": 19.0886993408,
+                "longitude": 72.8678970337
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "LGAV",
+                "name": "Eleftherios Venizelos International Airport",
+                "latitude": 37.9364013672,
+                "longitude": 23.9444999695
+            },
+            "destination": {
+                "ICAO": "LLBG",
+                "name": "Ben Gurion International Airport",
+                "latitude": 32.01139831542969,
+                "longitude": 34.88669967651367
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "LGAV",
+                "name": "Eleftherios Venizelos International Airport",
+                "latitude": 37.9364013672,
+                "longitude": 23.9444999695
+            },
+            "destination": {
+                "ICAO": "HECA",
+                "name": "Cairo International Airport",
+                "latitude": 30.12190055847168,
+                "longitude": 31.40559959411621
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "OMDB",
+                "name": "Dubai International Airport",
+                "latitude": 25.2527999878,
+                "longitude": 55.3643989563
+            },
+            "destination": {
+                "ICAO": "OEJN",
+                "name": "King Abdulaziz International Airport",
+                "latitude": 21.6796,
+                "longitude": 39.156502
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "OMDB",
+                "name": "Dubai International Airport",
+                "latitude": 25.2527999878,
+                "longitude": 55.3643989563
+            },
+            "destination": {
+                "ICAO": "LLBG",
+                "name": "Ben Gurion International Airport",
+                "latitude": 32.01139831542969,
+                "longitude": 34.88669967651367
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "WSSS",
+                "name": "Singapore Changi Airport",
+                "latitude": 1.35019,
+                "longitude": 103.994003
+            },
+            "destination": {
+                "ICAO": "VTBS",
+                "name": "Suvarnabhumi Airport",
+                "latitude": 13.681099891662598,
+                "longitude": 100.74700164794922
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "VHHH",
+                "name": "Hong Kong International Airport",
+                "latitude": 22.308901,
+                "longitude": 113.915001
+            },
+            "destination": {
+                "ICAO": "VTBS",
+                "name": "Suvarnabhumi Airport",
+                "latitude": 13.681099891662598,
+                "longitude": 100.74700164794922
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "HECA",
+                "name": "Cairo International Airport",
+                "latitude": 30.12190055847168,
+                "longitude": 31.40559959411621
+            },
+            "destination": {
+                "ICAO": "OMDB",
+                "name": "Dubai International Airport",
+                "latitude": 25.2527999878,
+                "longitude": 55.3643989563
+            }
+        },
+        {
+            "departure": {
                 "ICAO": "EHAM",
                 "name": "Amsterdam Airport Schiphol",
                 "latitude": 52.308601,
@@ -2143,20 +2367,6 @@
                 "name": "Oslo Gardermoen Airport",
                 "latitude": 60.193901062012,
                 "longitude": 11.100399971008
-            }
-        },
-        {
-            "departure": {
-                "ICAO": "EHAM",
-                "name": "Amsterdam Airport Schiphol",
-                "latitude": 52.308601,
-                "longitude": 4.76389
-            },
-            "destination": {
-                "ICAO": "EIDW",
-                "name": "Dublin Airport",
-                "latitude": 53.421299,
-                "longitude": -6.27007
             }
         },
         {
@@ -2283,6 +2493,188 @@
                 "name": "Eleftherios Venizelos International Airport",
                 "latitude": 37.9364013672,
                 "longitude": 23.9444999695
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "WPDL",
+                "name": "Presidente Nicolau Lobato International Airport",
+                "latitude": -8.54640007019,
+                "longitude": 125.526000977
+            },
+            "destination": {
+                "ICAO": "AYPY",
+                "name": "Port Moresby Jacksons International Airport",
+                "latitude": -9.443380355834961,
+                "longitude": 147.22000122070312
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "AYPY",
+                "name": "Port Moresby Jacksons International Airport",
+                "latitude": -9.443380355834961,
+                "longitude": 147.22000122070312
+            },
+            "destination": {
+                "ICAO": "YBBN",
+                "name": "Brisbane International Airport",
+                "latitude": -27.384199142456055,
+                "longitude": 153.11700439453125
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "YBBN",
+                "name": "Brisbane International Airport",
+                "latitude": -27.384199142456055,
+                "longitude": 153.11700439453125
+            },
+            "destination": {
+                "ICAO": "YSSY",
+                "name": "Sydney Kingsford Smith International Airport",
+                "latitude": -33.94609832763672,
+                "longitude": 151.177001953125
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "YSSY",
+                "name": "Sydney Kingsford Smith International Airport",
+                "latitude": -33.94609832763672,
+                "longitude": 151.177001953125
+            },
+            "destination": {
+                "ICAO": "NZAA",
+                "name": "Auckland International Airport",
+                "latitude": -37.008099,
+                "longitude": 174.792007
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "YSSY",
+                "name": "Sydney Kingsford Smith International Airport",
+                "latitude": -33.94609832763672,
+                "longitude": 151.177001953125
+            },
+            "destination": {
+                "ICAO": "YMML",
+                "name": "Melbourne International Airport",
+                "latitude": -37.673302,
+                "longitude": 144.843002
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "WIII",
+                "name": "Soekarno-Hatta International Airport",
+                "latitude": -6.1255698204,
+                "longitude": 106.65599823
+            },
+            "destination": {
+                "ICAO": "RPLL",
+                "name": "Ninoy Aquino International Airport",
+                "latitude": 14.5086,
+                "longitude": 121.019997
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "WSSS",
+                "name": "Singapore Changi Airport",
+                "latitude": 1.35019,
+                "longitude": 103.994003
+            },
+            "destination": {
+                "ICAO": "WADD",
+                "name": "Ngurah Rai (Bali) International Airport",
+                "latitude": -8.7481698989868,
+                "longitude": 115.16699981689
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "RJTT",
+                "name": "Tokyo Haneda International Airport",
+                "latitude": 35.552299,
+                "longitude": 139.779999
+            },
+            "destination": {
+                "ICAO": "RKSI",
+                "name": "Incheon International Airport",
+                "latitude": 37.46910095214844,
+                "longitude": 126.45099639892578
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "RJTT",
+                "name": "Tokyo Haneda International Airport",
+                "latitude": 35.552299,
+                "longitude": 139.779999
+            },
+            "destination": {
+                "ICAO": "ZSPD",
+                "name": "Shanghai Pudong International Airport",
+                "latitude": 31.1434,
+                "longitude": 121.805
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "RJTT",
+                "name": "Tokyo Haneda International Airport",
+                "latitude": 35.552299,
+                "longitude": 139.779999
+            },
+            "destination": {
+                "ICAO": "RJFF",
+                "name": "Fukuoka Airport",
+                "latitude": 33.585899353027344,
+                "longitude": 130.4510040283203
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "RJTT",
+                "name": "Tokyo Haneda International Airport",
+                "latitude": 35.552299,
+                "longitude": 139.779999
+            },
+            "destination": {
+                "ICAO": "RJFT",
+                "name": "Kumamoto Airport",
+                "latitude": 32.83729934692383,
+                "longitude": 130.85499572753906
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "RJTT",
+                "name": "Tokyo Haneda International Airport",
+                "latitude": 35.552299,
+                "longitude": 139.779999
+            },
+            "destination": {
+                "ICAO": "RCTP",
+                "name": "Taiwan Taoyuan International Airport",
+                "latitude": 25.0777,
+                "longitude": 121.233002
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "RJTT",
+                "name": "Tokyo Haneda International Airport",
+                "latitude": 35.552299,
+                "longitude": 139.779999
+            },
+            "destination": {
+                "ICAO": "RJOO",
+                "name": "Osaka International Airport",
+                "latitude": 34.785499572753906,
+                "longitude": 135.43800354003906
             }
         }
     ]

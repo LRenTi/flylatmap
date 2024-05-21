@@ -1,7 +1,7 @@
 {
     "name": "Apollo Airways (APA)",
     "id": "100269",
-    "updateTimestamp": 1716208654.2356446,
+    "updateTimestamp": 1716324326.7406669,
     "routes": [
         {
             "departure": {
@@ -71,6 +71,20 @@
                 "name": "Amsterdam Airport Schiphol",
                 "latitude": 52.308601,
                 "longitude": 4.76389
+            }
+        },
+        {
+            "departure": {
+                "ICAO": "EKCH",
+                "name": "Copenhagen Kastrup Airport",
+                "latitude": 55.617900848389,
+                "longitude": 12.656000137329
+            },
+            "destination": {
+                "ICAO": "OMDB",
+                "name": "Dubai International Airport",
+                "latitude": 25.2527999878,
+                "longitude": 55.3643989563
             }
         },
         {
