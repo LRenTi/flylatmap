@@ -24,7 +24,7 @@ jobs:
       - name: execute py script 
         run: python main.py
         
-     - name: commit files
+      - name: commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -35,5 +35,4 @@ jobs:
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main 
-            
+          branch: main
